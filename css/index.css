@@ -1,0 +1,41 @@
+/* 此作业的大小是在假定效果图的原始大小未被缩放过的情况下制作的*/
+/* 作业要求有要求选项卡字体22px，但是未给整体大小，
+在按照效果图100%原始比例的情况下如果使用22px的大小 效果与效果图差别较大
+故这里把字体大小注释掉了 */
+*{padding:0;margin:0;font-family: "Microsoft YaHei";}
+.box{
+	width: 450px;
+	height: 210px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -105px;
+	margin-left: -226px; 
+}
+.labelbox{
+	width: 100%;
+	height: 30px;
+}
+.label{
+	width: 25%;
+	height: 30px;
+	line-height:30px;
+	float: left;
+	text-align: center;
+	border-radius: 2px;
+	color: #666;
+	font-weight: bold;
+/* 作业要求有要求选项卡字体22px，但是未给整体大小，
+在按照效果图100%原始比例的情况下如果使用22px的大小 效果与效果图差别较大
+故这里把字体大小注释掉了 */
+/* 	font-size: 22px; */
+}
+.picbox{
+	height: 180px;
+	/*
+	border-width: 1px;
+	border-color: #ddd;
+	border-style: solid;
+	*/
+	background-size: 450px 180px;
+}
