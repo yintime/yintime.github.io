@@ -71,10 +71,14 @@ all.onmouseout=function(){
 	timer=setInterval("nextlab()",1000);
 }
 
+function func(){
+	//初始化 标签1背景 图1生成
+	bgc(lab1,"#fc0");
+	mage.style.backgroundImage="url(./img/1.jpg)";
+	flag=0;
+	timer=setInterval("nextlab()",1000);
+}
+
+window.onload=func;
 
 
-//初始化 标签1背景 图1生成
-bgc(lab1,"#fc0");
-image.style.backgroundImage="url(./img/1.jpg)";
-flag=0;
-timer=setInterval("nextlab()",1000);
