@@ -1,3 +1,9 @@
 $(document).ready(function(){
-
+    $(".page").click(function(){
+        $(this).hide()
+        $(this).next().show()
+    })
+    $(".last").click(function(){
+        $(".first").show()
+    })
 });
