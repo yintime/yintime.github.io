@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    width: 640px;
+    height: 1008px;
+    text-align: center;
+    border:1px dashed #000
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color:  yellow;
+}
+.blue{
+    background-color: blue;
+}
+.back{
+    margin: 0 auto;
+}
+.next{
+    position:absolute;
+    bottom: 0;
+}
