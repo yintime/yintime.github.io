@@ -1,9 +1,10 @@
 $(document).ready(function(){
+    // $("div").slideToggle("slow")
     $(".page").click(function(){
         $(this).hide()
-        $(this).next().show()
+        $(this).next().slideToggle(2000,"swing")
     })
     $(".last").click(function(){
-        $(".first").show()
+        $(".first").slideToggle(2000,"linear")
     })
 });

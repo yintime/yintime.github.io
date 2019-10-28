@@ -17,6 +17,9 @@
 .blue{
     background-color: blue;
 }
+.green{
+    background-color: green;
+}
 .back{
     margin: 0 auto;
 }
@@ -32,4 +35,29 @@
 }
 .dis{
     display: block;
+}
+
+.content1{
+    animation-name: fadeInNormal;
+    animation-duration: 10s;
+}
+.page1{
+    animation-name: scaleUp;
+    animation-duration: 10s;
+}
+@keyframes back1 {
+    from { transform: rotateX(0deg);}
+    to { transform: rotateX(360deg);}
+}
+
+.title{
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 20px;
+    animation-name: slideOutUp;
+    animation-duration: 2s;
+    
 }

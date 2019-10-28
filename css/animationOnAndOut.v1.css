@@ -1,4 +1,4 @@
-  
+/* scaleUp:放大成2倍后复原 */
   @-webkit-keyframes scaleUp {
     0% {
       -webkit-transform: scale3d(1, 1 1);
@@ -29,7 +29,7 @@
             transform: scale3d(1, 1, 1);
     }
   }
-
+/* scaleDown:缩小为一半后复原 */
   @-webkit-keyframes scaleDown {
     0% {
       -webkit-transform: scale3d(1, 1 1);
@@ -61,7 +61,7 @@
     }
   }
 
-
+/* 左偏移自身的一半后复原 */
   @-webkit-keyframes swingX {
     50% {
         -webkit-transform: translate3d(-50%,0,0);
@@ -74,7 +74,7 @@
         transform: translate3d(-50%,0,0);
     }
   }
-
+/* 上偏移自身的一半后复原 */
   @-webkit-keyframes swingY {
     50% {
         -webkit-transform: translate3d(0,-50%,0);
@@ -87,7 +87,7 @@
         transform: translate3d(0,-50%,0);
     }
   }
-
+/* 顺时针旋转360 */
   @-webkit-keyframes rotateWise {
     50% {
         -webkit-transform: rotate(-180deg);
@@ -108,7 +108,7 @@
                 transform: rotate(360deg);
     }
   }
-
+/* 逆时针旋转360 */
   @-webkit-keyframes rotateAntiWise {
     50% {
         -webkit-transform: rotate(-180deg);
@@ -129,7 +129,7 @@
                 transform: rotate(-360deg);
     }
   }
-
+/* 消失后再出现 */
   @-webkit-keyframes fade {
     50% {
         opacity: 0;
@@ -142,7 +142,7 @@
   }
 
 
-/* 閫€鍦哄姩鐢� */
+/* 淡出 */
   @-webkit-keyframes fadeOut {
     100% {
         opacity: 0;
@@ -153,6 +153,7 @@
         opacity: 0;
     }
   }
+  /* 淡出的同时上移10% */
   @-webkit-keyframes fadeOutUp {
     100% {
         opacity: 0;
@@ -167,6 +168,7 @@
         transform: translate3d(0,-10%,0);
     }
   }
+  /* 淡出的同时下移10% */
   @-webkit-keyframes fadeOutDown {
     100% {
         opacity: 0;
@@ -181,6 +183,7 @@
         transform: translate3d(0,10%,0);
     }
   }
+ /* 淡出的同时左移10% */
   @-webkit-keyframes fadeOutLeft {
     100% {
         opacity: 0;
@@ -195,6 +198,7 @@
         transform: translate3d(-10%,0,0);
     }
   }
+  /* 淡出的同时右移10% */
   @-webkit-keyframes fadeOutRight {
     100% {
         opacity: 0;
@@ -209,6 +213,7 @@
         transform: translate3d(10%,0,0);
     }
   }
+/* 以左下为原点右转90消失 */
   @-webkit-keyframes rotateOutUpLeft {
     0% {
         -webkit-transform-origin: left bottom;
@@ -225,7 +230,6 @@
         opacity: 0
     }
 }
-
 @keyframes rotateOutUpLeft {
     0% {
         -webkit-transform-origin: left bottom;
@@ -246,6 +250,7 @@
         opacity: 0
     }
 }
+/* 以右下为原点顺时针90消失 */
 @-webkit-keyframes rotateOutUpRight {
     0% {
         -webkit-transform-origin: right bottom;
@@ -262,7 +267,6 @@
         opacity: 0
     }
 }
-
 @keyframes rotateOutUpRight {
     0% {
         -webkit-transform-origin: right bottom;
@@ -283,6 +287,7 @@
         opacity: 0
     }
 }
+/* 左滑2倍消失 */
 @-webkit-keyframes slideOutLeft {
     0% {
         -webkit-transform: translateX(0);
@@ -294,7 +299,6 @@
         transform: translateX(-200%)
     }
 }
-
 @keyframes slideOutLeft {
     0% {
         -webkit-transform: translateX(0);
@@ -308,6 +312,7 @@
         transform: translateX(-200%)
     }
 }
+/* 右滑2倍消失 */
 @-webkit-keyframes slideOutRight {
     0% {
         -webkit-transform: translateX(0);
@@ -319,7 +324,6 @@
         transform: translateX(200%)
     }
 }
-
 @keyframes slideOutRight {
     0% {
         -webkit-transform: translateX(0);
@@ -333,6 +337,7 @@
         transform: translateX(200%)
     }
 }
+/* 上滑2倍消失 */
 @-webkit-keyframes slideOutUp {
     0% {
         -webkit-transform: translateY(0);
@@ -344,7 +349,6 @@
         transform: translateY(-200%)
     }
 }
-
 @keyframes slideOutUp {
     0% {
         -webkit-transform: translateY(0);

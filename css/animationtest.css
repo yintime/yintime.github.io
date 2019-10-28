@@ -1,0 +1,200 @@
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color:  yellow;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.comtent{
+    padding: 20px;
+}
+.comtent select{
+    margin-left: 10%;
+}
+#test{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10%;
+    display: inline-block;
+    padding: 20px;
+    display: block;
+}
+.scaleUp{
+    animation-name: scaleUp;
+    animation-duration: 2s;
+}
+.scaleDown{
+    animation-name: scaleDown;
+    animation-duration: 2s;
+}
+.swingX{
+    animation-name: swingX;
+    animation-duration: 2s;
+}
+.swingY{
+    animation-name: swingY;
+    animation-duration: 2s;
+}
+.rotateWise{
+    animation-name: rotateWise;
+    animation-duration: 2s;
+}
+.rotateAntiWise{
+    animation-name: rotateAntiWise;
+    animation-duration: 2s;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+.fadeOut{
+    animation-name: fadeOut;
+    animation-duration: 2s;
+}
+.fadeOutUp{
+    animation-name: fadeOutUp;
+    animation-duration: 2s;
+}
+.fadeOutDown{
+    animation-name: fadeOutDown;
+    animation-duration: 2s;
+}
+.fadeOutLeft{
+    animation-name: fadeOutLeft;
+    animation-duration: 2s;
+}
+.fadeOutRight{
+    animation-name: fadeOutRight;
+    animation-duration: 2s;
+}
+.rotateOutUpLeft{
+    animation-name: rotateOutUpLeft;
+    animation-duration: 2s;
+}
+.rotateOutUpRight{
+    animation-name: rotateOutUpRight;
+    animation-duration: 2s;
+}
+.slideOutLeft{
+    animation-name: slideOutLeft;
+    animation-duration: 2s;
+}
+.slideOutRight{
+    animation-name: slideOutRight;
+    animation-duration: 2s;
+}
+.slideOutUp{
+    animation-name: slideOutUp;
+    animation-duration: 2s;
+}
+.zoomIn{
+    animation-name: zoomIn;
+    animation-duration: 2s;
+}
+.zoomInDown{
+    animation-name: zoomInDown;
+    animation-duration: 2s;
+}
+.expandOpen{
+    animation-name: expandOpen;
+    animation-duration: 2s;
+}
+.fadeIn{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.fadeInUp{
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+}
+.fadeInRight{
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+}
+.fadeInLeft{
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+}
+.fadeInDown{
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+.moveDown{
+    animation-name: moveDown;
+    animation-duration: 2s;
+}
+.moveUp{
+    animation-name: moveUp;
+    animation-duration: 2s;
+}
+.moveLeft{
+    animation-name: moveLeft;
+    animation-duration: 2s;
+}
+.moveRight{
+    animation-name: moveRight;
+    animation-duration: 2s;
+}
+.rotateIn{
+    animation-name: rotateIn;
+    animation-duration: 2s;
+}
+.rotateInDownLeft{
+    animation-name: rotateInDownLeft;
+    animation-duration: 2s;
+}
+.rotateInDownRight{
+    animation-name: rotateInDownRight;
+    animation-duration: 2s;
+}
+.flipInY{
+    animation-name: flipInY;
+    animation-duration: 2s;
+}
+.flipInX{
+    animation-name: flipInX;
+    animation-duration: 2s;
+}
+.lightSpeedIn{
+    animation-name: lightSpeedIn;
+    animation-duration: 2s;
+}
+.slideDown{
+    animation-name: slideDown;
+    animation-duration: 2s;
+}
+.slideUp{
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+.slideLeft{
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+.slideRight{
+    animation-name: slideRight;
+    animation-duration: 2s;
+}
+.pullUp{
+    animation-name: pullUp;
+    animation-duration: 2s;
+}
+.pullDown{
+    animation-name: pullDown;
+    animation-duration: 2s;
+}
+.stretchLeft{
+    animation-name: stretchLeft;
+    animation-duration: 2s;
+}
+.stretchRight{
+    animation-name: stretchRight;
+    animation-duration: 2s;
+}
